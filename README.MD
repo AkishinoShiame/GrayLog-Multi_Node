@@ -1,5 +1,20 @@
 # How to Create a multi-node GrayLog.
 
+---
+### Enviorment
+•	ElasticSearch 2.1.x or later (version 2.3.3-1 was used)
+    https://www.elastic.co/downloads/elasticsearch)
+•	MongoDB 2.0 or later (version 3.2.7-1.el7 was used) 
+    requires: mongodb-org, mongodb-org-mongos, mongodb-org-server, mongodb-org-shell, mongodb-org-tools 
+    https://repo.mongodb.org/yum/redhat/7/mongodb-org/stable/x86_64/RPMS/
+•	Oracle Java SE 8 or OpenJDK 8 or later
+    (version openjdk-1.8.0.65-3.b17.el7 was used provided on CentOS ISO and already installed
+•	graylog-server (version 2.0.3-1 was used) 
+    https://packages.graylog2.org/el/stable/2.0/x86_64
+•	graylog-enterprise-plugins (version 1.0.0-1 was used)
+    https://downloads.graylog.org/releases/graylog-enterprise/plugin-bundle/rpm/graylog-enterprise-plugins-1.0.0-1.noarch.rpm
+---
+
 Steps:
 * Install needed component
 * Setup MongoDB
