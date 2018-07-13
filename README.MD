@@ -96,7 +96,8 @@ network.host: 0.0.0.0
 http.port: 9200
 transport.tcp.port: 9300
 discovery.zen.ping.multicast.enabled: false
-discovery.zen.ping.unicast.hosts: ["<host>:9300" , "<host>:9300" , "<host>:9300"] # multi-node used, mostly support up to 3 nodes. Every nodes use same config.
+discovery.zen.ping.unicast.hosts: ["<host>:9300" , "<host>:9300" , "<host>:9300"] # multi-node used, mostly support
+                                                                       # up to 3 nodes. Every nodes use same config.
 cluster.routing.allocation.same_shard.host: true
 index.refresh_interval: 30s
 ```
