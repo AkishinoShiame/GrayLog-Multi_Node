@@ -17,7 +17,7 @@ Please followed [graylog official](https://www.graylog.org/) and [Documentation]
 
 First setup the mongo config for enviorment.
 
-"""bash
+```bash
 # change in all nodes.
 # Located in "/etc/mongod.conf"
 
@@ -25,16 +25,16 @@ net:
   port: 27018
   bindIp: 0.0.0.0
 
-"""
+```
 
 
 * Create DB (Must)
 
 * Create user(optical)
 
-""" bash
+```bash
 $ mongo admin -u admin -p admin --eval "db.getSiblingDB('dummydb').addUser('dummyuser', 'dummysecret')"
-"""
+```
 
 ## Setup Cluster ElasticSearch
 
