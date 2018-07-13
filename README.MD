@@ -1,5 +1,12 @@
 # How to Create a multi-node GrayLog.
 
+Steps:
+* Install needed component
+* Setup MongoDB
+* Setup Cluster ElasticSearch
+* Setup GrayLog Server for multi-node
+* Done!!!
+
 ---
 
 ### Enviorment
@@ -17,13 +24,6 @@
     https://downloads.graylog.org/releases/graylog-enterprise/plugin-bundle/rpm/graylog-enterprise-plugins-1.0.0-1.noarch.rpm  
 
 ---
-
-Steps:
-* Install needed component
-* Setup MongoDB
-* Setup Cluster ElasticSearch
-* Setup GrayLog Server for multi-node
-* Done!!!
 
 ## Install needed component
 
