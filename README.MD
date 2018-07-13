@@ -17,7 +17,7 @@ Please followed [graylog official](https://www.graylog.org/) and [Documentation]
 
 First setup the mongo config for enviorment.
 
-```bash
+```linux
 # change in all nodes.
 # Located in "/etc/mongod.conf"
 
