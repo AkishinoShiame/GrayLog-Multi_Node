@@ -1,0 +1,10 @@
+cluster.name: graylog-TST-TEST
+node.name: tsc0gl1-es1
+network.host: ::0
+http.port: 9200
+transport.tcp.port: 9300
+discovery.zen.ping.multicast.enabled: false
+discovery.zen.ping.unicast.hosts: ["tsc0gl0:9300" , "tsc0gl1:9300" , "tsc0gl2:9300"]
+cluster.routing.allocation.same_shard.host: true
+index.refresh_interval: 30s
+path.repo: ["/data/backup"]
